@@ -1,5 +1,5 @@
-const API_BASE_URL =
-  process.env.REACT_APP_API_BASE_URL || "http://localhost:5001";
+const API_BASE_URL = "https://we-doth-love-movies-backend.herokuapp.com/"
+  // process.env.REACT_APP_API_BASE_URL || "http://localhost:5001";
 
 if (process.env.LIVE_API_URL) API_BASE_URL = process.env.LIVE_API_URL; 
 
