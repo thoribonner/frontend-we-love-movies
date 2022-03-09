@@ -1,7 +1,7 @@
 const API_BASE_URL =
   process.env.REACT_APP_API_BASE_URL || "http://localhost:5001";
 
-if (LIVE_API_URL) API_BASE_URL = LIVE_API_URL; 
+if (process.env.LIVE_API_URL) API_BASE_URL = LIVE_API_URL; 
 
 /**
  * Defines the default headers for these functions to work with `json-server`
